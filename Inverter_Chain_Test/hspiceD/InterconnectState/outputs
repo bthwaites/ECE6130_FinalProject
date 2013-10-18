@@ -1,0 +1,79 @@
+_outputList = nil
+ _envSaveOptions = nil
+savedComponent = (let
+(tmp1)
+(unless tmp1
+tmp1 = make_sevOutputStruct()
+)
+(unless tmp1
+tmp1 = (ncons nil)
+)
+tmp1->definedIn = ""
+tmp1->name = "delay"
+tmp1->expression = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13)
+tmp1 = 'delay
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'VT
+tmp2 = "/in"
+list(tmp1 tmp2)
+)
+tmp3 = 4.0000000000000002e-01
+tmp4 = 1
+tmp5 = "rising"
+tmp6 = (let
+(tmp1 tmp2)
+tmp1 = 'VT
+tmp2 = "/net1"
+list(tmp1 tmp2)
+)
+tmp7 = 4.0000000000000002e-01
+tmp8 = 1
+tmp9 = "rising"
+tmp10 = 0
+tmp11 = 0
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13)
+)
+tmp1->signal = nil
+tmp1->scriptFile = ""
+tmp1->type2 = nil
+tmp1->displayIt = nil
+tmp1->internalName = nil
+tmp1->masterName = nil
+tmp1->masterScriptFile = nil
+tmp1->saveScriptFile = nil
+tmp1->saveMasterScriptFile = nil
+tmp1->lastEvalTime = nil
+tmp1->origin = nil
+tmp1->type = nil
+tmp1->areaTable = nil
+tmp1->selectionDetail = nil
+tmp1->value = nil
+tmp1->plot = 't
+tmp1->save = nil
+tmp1->march = nil
+tmp1->index = 1
+tmp1->timeStamp = nil
+list(tmp1)
+)
+_outputList = nconc( _outputList savedComponent) 
+savedComponent = nil 
+_envSaveOptions = (let
+(tmp1 tmp2)
+tmp1 = (let
+(tmp1 tmp2)
+tmp1 = 'allAnalogTC
+list(tmp1 tmp2)
+)
+tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'allAnalogNV
+tmp2 = 't
+list(tmp1 tmp2)
+)
+list(tmp1 tmp2)
+)
+savedComponent = list( _outputList _envSaveOptions ) 
+_outputList = 'unbound
+ _envSaveOptions = 'unbound

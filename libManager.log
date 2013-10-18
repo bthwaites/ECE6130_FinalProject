@@ -1,0 +1,40 @@
+\o Program:		@(#)$CDS: libManager.exe version 6.1.2 08/19/2008 14:05 (cat61lnx) $
+\o Sub version:		sub-version 07.02-s027
+\o Arguments:		-mpssession virtuoso3094 -mpshost ccblincad31.ece.gatech.edu 
+\o Working Directory:	ccblincad31.ece.gatech.edu:/nethome/bthwaites3/ECE6130/ECE6130_Cadence/Cadence/ECE6130_FinalProject
+\o changeWorkingDir("/nethome/bthwaites3/ECE6130/ECE6130_Cadence/Cadence/ECE6130_FinalProject") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\o Qt version: 		4.2.3
+\o Log file is "/nethome/bthwaites3/ECE6130/ECE6130_Cadence/Cadence/ECE6130_FinalProject/libManager.log".
+\o Opening libManager window.
+\a nrResizeWindow(cdsLibManager list(58 33 522 520))
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libListBox->value = "rfExamples"
+\a cdsLibManager->libListBox->value = "rfExamples"
+\a cdsLibManager->libListBox->value = "rfLib"
+\a cdsLibManager->libListBox->value = "rfLib"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libListBox->value = "functional"
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libListBox->value = "cdsDefTechLib"
+\a cdsLibManager->libListBox->value = "basic"
+\a cdsLibManager->libListBox->value = "basic"
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libListBox->value = "ahdlLib"
+\a cdsLibManager->libListBox->value = "ahdlLib"
+\a cdsLibManager->libListBox->value = "US_8ths"
+\a cdsLibManager->libListBox->value = "US_8ths"
+\a cdsLibManager->libLineEdit->value = "US_8ths"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)
