@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      nbiberidis3
+HostName                       ccblincad02.ece.gatech.edu
+ProcessIdentifier              30100
+ProcessCreationTime_UTC        1382211025
+ProcessCreationTime_Readable   Sat Oct 19 15:30:25 2013 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /nethome/nbiberidis3/ECE6130_Cadence/Cadence/ECE6130_FinalProject/4to1_mux1/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat Oct 19 16:02:35 2013 EDT
