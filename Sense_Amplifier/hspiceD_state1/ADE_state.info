@@ -1,0 +1,3 @@
+projectDir = '"./../Hspice"
+designInfo = '("ECE6130_Project" "Sense_Amplifier" "schematic" "hspiceD")
+descriptionText = "None"
