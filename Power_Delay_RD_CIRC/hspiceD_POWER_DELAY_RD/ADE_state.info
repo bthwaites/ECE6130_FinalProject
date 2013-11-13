@@ -1,0 +1,3 @@
+projectDir = '"./hspice"
+designInfo = '("ECE6130_FinalProject" "Power_Delay_RD_CIRC" "schematic" "hspiceD")
+descriptionText = "None"
