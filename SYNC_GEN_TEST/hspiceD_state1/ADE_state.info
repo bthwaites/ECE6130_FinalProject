@@ -1,0 +1,3 @@
+projectDir = '"./hspice"
+designInfo = '("ECE6130_FinalProject" "SYNC_GEN_TEST" "schematic" "hspiceD")
+descriptionText = "None"
