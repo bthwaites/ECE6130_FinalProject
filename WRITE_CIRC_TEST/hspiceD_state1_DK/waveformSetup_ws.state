@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JavaBean CLASS="COM.cadence.awd.graph.GraphFrame">
+  <Properties>
+    <Property NAME="graph">
+      <JavaBean CLASS="COM.cadence.awd.graph.Rect2DGraph">
+        <Properties>
+          <Property NAME="backgroundName">black</Property>
+          <Property NAME="cursorOn">True</Property>
+          <Property NAME="dataSnapOn">False</Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">0</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">1</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">2</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.35000003500000004</Property>
+                <Property NAME="userMin">-0.05000000500000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">3</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.9000000900000001</Property>
+                <Property NAME="userMin">0.30000003000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">4</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">5</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">6</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">7</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">8</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">9</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">10</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">11</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">12</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">13</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">14</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">15</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.070000007</Property>
+                <Property NAME="userMin">-0.010000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">16</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">17</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">0.0</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">18</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">0.0</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">19</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">20</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">21</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">22</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">23</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.8500000850000001</Property>
+                <Property NAME="userMin">0.7000000700000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">24</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">25</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">26</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">27</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">28</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">29</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">0.8000000800000001</Property>
+                <Property NAME="userMin">-0.10000001000000001</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">30</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">31</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="dependentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.DepAxis">
+              <Properties>
+                <Property NAME="baseUnit">V</Property>
+                <Property NAME="defaultTitle">V</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">0</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">0</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">32</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">V</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001</Property>
+                <Property NAME="userMin">-0.20000002000000003</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="displayDate">True</Property>
+          <Property NAME="displayType">5</Property>
+          <Property NAME="eyeDiagram">False</Property>
+          <Property NAME="fontName">Dialog</Property>
+          <Property NAME="fontSize">12</Property>
+          <Property NAME="fontStyle">0</Property>
+          <Property NAME="forceCommonLimits">False</Property>
+          <Property NAME="forceSquareAspect">False</Property>
+          <Property NAME="foregroundName">black</Property>
+          <Property NAME="freeze">False</Property>
+          <Property NAME="independentAxis">
+            <JavaBean CLASS="COM.cadence.awd.graph.IndepAxis">
+              <Properties>
+                <Property NAME="defaultTitle">time</Property>
+                <Property NAME="forceOrigin">False</Property>
+                <Property NAME="foregroundName">black</Property>
+                <Property NAME="logScale">False</Property>
+                <Property NAME="majDivisions">4</Property>
+                <Property NAME="majGridsOn">True</Property>
+                <Property NAME="minDivisions">10</Property>
+                <Property NAME="minGridsOn">True</Property>
+                <Property NAME="minorForegroundName">0x383838</Property>
+                <Property NAME="nameId">0</Property>
+                <Property NAME="scaleMode">1</Property>
+                <Property NAME="sigDigits">3</Property>
+                <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="useDefaultTitle">True</Property>
+                <Property NAME="userMax">1.0000001000000002E-8</Property>
+                <Property NAME="userMin">0.0</Property>
+                <Property NAME="zoomState">False</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="majorGridsForegroundName">0x6e6e6e</Property>
+          <Property NAME="majorGridsOn">True</Property>
+          <Property NAME="minorGridsForegroundName">0x383838</Property>
+          <Property NAME="minorGridsOn">True</Property>
+          <Property NAME="nameId">-1</Property>
+          <Property NAME="peakSnapOn">False</Property>
+          <Property NAME="runVarName">time</Property>
+          <Property NAME="stripChartOn">True</Property>
+          <Property NAME="subTitle"></Property>
+          <Property NAME="title">Transient Response</Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I133/I121/I0/I5/Q</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">0</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xbe4025</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I133/I121/I0/I5/Q</Property>
+                <Property NAME="nameId">0</Property>
+                <Property NAME="stripIndex">0</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I133/I121/I0/I5/Q</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi133^xi121^xi0^xi5^q</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi133^xi121^xi0^xi5^q</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:18850285.12340</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I133/I121/I0/I5/Qn</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">1</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">red</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I133/I121/I0/I5/Qn</Property>
+                <Property NAME="nameId">1</Property>
+                <Property NAME="stripIndex">1</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I133/I121/I0/I5/Qn</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi133^xi121^xi0^xi5^qn</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi133^xi121^xi0^xi5^qn</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:29363912.12341</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I133/I121/I1/I5/Qn</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">2</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xffbef1</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I133/I121/I1/I5/Qn</Property>
+                <Property NAME="nameId">2</Property>
+                <Property NAME="stripIndex">2</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I133/I121/I1/I5/Qn</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi133^xi121^xi1^xi5^qn</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi133^xi121^xi1^xi5^qn</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:688347.12342</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I133/I121/I1/I5/Q</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">3</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xff8000</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I133/I121/I1/I5/Q</Property>
+                <Property NAME="nameId">3</Property>
+                <Property NAME="stripIndex">3</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I133/I121/I1/I5/Q</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi133^xi121^xi1^xi5^q</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi133^xi121^xi1^xi5^q</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:26329991.12343</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I133/I121/I2/I5/Qn</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">4</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xcc66</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I133/I121/I2/I5/Qn</Property>
+                <Property NAME="nameId">4</Property>
+                <Property NAME="stripIndex">4</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I133/I121/I2/I5/Qn</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi133^xi121^xi2^xi5^qn</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi133^xi121^xi2^xi5^qn</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:12319968.12344</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I133/I121/I2/I5/Q</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">5</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">blue</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I133/I121/I2/I5/Q</Property>
+                <Property NAME="nameId">5</Property>
+                <Property NAME="stripIndex">5</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I133/I121/I2/I5/Q</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi133^xi121^xi2^xi5^q</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi133^xi121^xi2^xi5^q</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:30870750.12345</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/CLK</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">6</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0x9900e6</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/CLK</Property>
+                <Property NAME="nameId">6</Property>
+                <Property NAME="stripIndex">6</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/CLK</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">clk</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">clk</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:26079725.12346</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/VPRE</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">7</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9cc00</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/VPRE</Property>
+                <Property NAME="nameId">7</Property>
+                <Property NAME="stripIndex">7</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/VPRE</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">vpre</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">vpre</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:393325.12347</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">8</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xbe4025</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;0&gt;</Property>
+                <Property NAME="nameId">9</Property>
+                <Property NAME="stripIndex">8</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:16243987.12349</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;1&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">9</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">red</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;1&gt;</Property>
+                <Property NAME="nameId">10</Property>
+                <Property NAME="stripIndex">9</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;1&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;1&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;1&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:13837711.12350</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;2&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">10</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xffbef1</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;2&gt;</Property>
+                <Property NAME="nameId">11</Property>
+                <Property NAME="stripIndex">10</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;2&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;2&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;2&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:4656975.12351</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;3&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">11</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xff8000</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;3&gt;</Property>
+                <Property NAME="nameId">12</Property>
+                <Property NAME="stripIndex">11</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;3&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;3&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;3&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:20844750.12352</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;4&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">12</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xcc66</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;4&gt;</Property>
+                <Property NAME="nameId">13</Property>
+                <Property NAME="stripIndex">12</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;4&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;4&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;4&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:29451474.12353</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;5&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">13</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">blue</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;5&gt;</Property>
+                <Property NAME="nameId">14</Property>
+                <Property NAME="stripIndex">13</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;5&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;5&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;5&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:29497579.12354</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;6&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">14</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0x9900e6</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;6&gt;</Property>
+                <Property NAME="nameId">15</Property>
+                <Property NAME="stripIndex">14</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;6&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;6&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;6&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:32633691.12355</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/QBR&lt;7&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">15</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9cc00</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/QBR&lt;7&gt;</Property>
+                <Property NAME="nameId">16</Property>
+                <Property NAME="stripIndex">15</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/QBR&lt;7&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">qbr&lt;7&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">qbr&lt;7&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:27262255.12356</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/WL&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">True</Property>
+                <Property NAME="depAxisId">16</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xffbef1</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/WL&lt;0&gt;</Property>
+                <Property NAME="nameId">20</Property>
+                <Property NAME="stripIndex">16</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/WL&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">wl&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">wl&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:18338245.12413</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/D&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">16</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9e6ff</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/D&lt;0&gt;</Property>
+                <Property NAME="nameId">17</Property>
+                <Property NAME="stripIndex">16</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/D&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">d&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">d&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:10966007.12357</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/W</Property>
+                <Property NAME="defaultTitleOn">True</Property>
+                <Property NAME="depAxisId">17</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9e6ff</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/W</Property>
+                <Property NAME="nameId">35</Property>
+                <Property NAME="stripIndex">17</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/W</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">w</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">w</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:21943975.12411</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/D&lt;1&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">17</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xbe4025</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/D&lt;1&gt;</Property>
+                <Property NAME="nameId">18</Property>
+                <Property NAME="stripIndex">17</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/D&lt;1&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">d&lt;1&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">d&lt;1&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:24740766.12358</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/D&lt;2&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">18</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">red</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/D&lt;2&gt;</Property>
+                <Property NAME="nameId">19</Property>
+                <Property NAME="stripIndex">18</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/D&lt;2&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">d&lt;2&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">d&lt;2&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:11540889.12359</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BL0_n&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">19</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xff8000</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BL0_n&lt;0&gt;</Property>
+                <Property NAME="nameId">21</Property>
+                <Property NAME="stripIndex">19</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BL0_n&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">bl0_n&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">bl0_n&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:13898338.12361</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BL1_n&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">20</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xcc66</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BL1_n&lt;0&gt;</Property>
+                <Property NAME="nameId">22</Property>
+                <Property NAME="stripIndex">20</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BL1_n&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">bl1_n&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">bl1_n&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:16974651.12362</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BL2_n&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">21</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">blue</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BL2_n&lt;0&gt;</Property>
+                <Property NAME="nameId">23</Property>
+                <Property NAME="stripIndex">21</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BL2_n&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">bl2_n&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">bl2_n&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:13186766.12363</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BL0&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">22</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0x9900e6</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BL0&lt;0&gt;</Property>
+                <Property NAME="nameId">24</Property>
+                <Property NAME="stripIndex">22</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BL0&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">bl0&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">bl0&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:2965247.12364</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BL1&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">23</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9cc00</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BL1&lt;0&gt;</Property>
+                <Property NAME="nameId">25</Property>
+                <Property NAME="stripIndex">23</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BL1&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">bl1&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">bl1&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:8589013.12365</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BL2&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">24</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9e6ff</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BL2&lt;0&gt;</Property>
+                <Property NAME="nameId">26</Property>
+                <Property NAME="stripIndex">24</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BL2&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">bl2&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">bl2&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:4376932.12366</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BR&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">25</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xbe4025</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BR&lt;0&gt;</Property>
+                <Property NAME="nameId">27</Property>
+                <Property NAME="stripIndex">25</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BR&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">br&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">br&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:11789355.12367</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BR&lt;1&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">26</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">red</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BR&lt;1&gt;</Property>
+                <Property NAME="nameId">28</Property>
+                <Property NAME="stripIndex">26</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BR&lt;1&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">br&lt;1&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">br&lt;1&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:4770980.12368</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BR_n&lt;2&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">27</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xffbef1</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BR_n&lt;2&gt;</Property>
+                <Property NAME="nameId">29</Property>
+                <Property NAME="stripIndex">27</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">9</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BR_n&lt;2&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">br_n&lt;2&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">br_n&lt;2&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:24335454.12369</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/BR&lt;2&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">28</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xff8000</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/BR&lt;2&gt;</Property>
+                <Property NAME="nameId">30</Property>
+                <Property NAME="stripIndex">28</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">14</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/BR&lt;2&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">br&lt;2&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">br&lt;2&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:11013637.12370</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I180/SAE</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">29</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xcc66</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I180/SAE</Property>
+                <Property NAME="nameId">31</Property>
+                <Property NAME="stripIndex">29</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">8</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I180/SAE</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi180^sae</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi180^sae</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:19950233.12371</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I180/RE&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">30</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">blue</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I180/RE&lt;0&gt;</Property>
+                <Property NAME="nameId">32</Property>
+                <Property NAME="stripIndex">30</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">15</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I180/RE&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi180^re&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi180^re&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:27684794.12372</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/I180/WE&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">31</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0x9900e6</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/I180/WE&lt;0&gt;</Property>
+                <Property NAME="nameId">33</Property>
+                <Property NAME="stripIndex">31</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">7</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/I180/WE&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">xi180^we&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">xi180^we&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:32586215.12373</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="trace">
+            <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
+              <Properties>
+                <Property NAME="dataSetName">timeSweep</Property>
+                <Property NAME="defaultTitle">/col_sel&lt;0&gt;</Property>
+                <Property NAME="defaultTitleOn">False</Property>
+                <Property NAME="depAxisId">32</Property>
+                <Property NAME="depUnit">V</Property>
+                <Property NAME="directoryName">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                <Property NAME="eyeEnd">1.0E-8</Property>
+                <Property NAME="eyeInterval">1.0E-8</Property>
+                <Property NAME="eyeMode">False</Property>
+                <Property NAME="eyeStart">0.0</Property>
+                <Property NAME="foregroundName">0xd9cc00</Property>
+                <Property NAME="indepAxisId">0</Property>
+                <Property NAME="name">/col_sel&lt;0&gt;</Property>
+                <Property NAME="nameId">34</Property>
+                <Property NAME="stripIndex">32</Property>
+                <Property NAME="symbolCount">20</Property>
+                <Property NAME="symbolStyle">6</Property>
+                <Property NAME="symbolsOnFlag">False</Property>
+                <Property NAME="title">/col_sel&lt;0&gt;</Property>
+                <Property NAME="traceStyle">37</Property>
+                <Property NAME="traceToken">
+                  <JavaBean CLASS="COM.cadence.awd.graph.TraceToken">
+                    <Properties>
+                      <Property NAME="compound">False</Property>
+                      <Property NAME="convertedName">col_sel&lt;0&gt;</Property>
+                      <Property NAME="dataDirectory">/nethome/nbiberidis3/ECE6130_Cadence/Cadence/hspice/WRITE_CIRC_TEST/hspiceD/schematic/psf</Property>
+                      <Property NAME="dataSet">timeSweep</Property>
+                      <Property NAME="index">0</Property>
+                      <Property NAME="name">col_sel&lt;0&gt;</Property>
+                      <Property NAME="type">SIGNAL</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+                <Property NAME="traceType">31</Property>
+                <Property NAME="zoomAgent">
+                  <JavaBean CLASS="COM.cadence.awd.graph.ZoomAgent">
+                    <Properties>
+                      <Property NAME="traceId">trc:1088736.12374</Property>
+                    </Properties>
+                  </JavaBean>
+                </Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="useDefaultSubTitle">True</Property>
+          <Property NAME="useDefaultTitle">False</Property>
+          <Property NAME="visible">True</Property>
+          <Property NAME="visibleDigitalRows">4</Property>
+          <Property NAME="visibleStripChartRows">6</Property>
+          <Property NAME="zoomManager">
+            <JavaBean CLASS="COM.cadence.awd.graph.ZoomManager">
+              <Properties>
+                <Property NAME="xStartMax">0.0</Property>
+                <Property NAME="xStartMin">0.0</Property>
+                <Property NAME="yStartMax">0.0</Property>
+                <Property NAME="yStartMin">0.0</Property>
+                <Property NAME="zoomRow">0</Property>
+                <Property NAME="zoomType">0</Property>
+              </Properties>
+            </JavaBean>
+          </Property>
+          <Property NAME="zoomState">False</Property>
+        </Properties>
+      </JavaBean>
+    </Property>
+    <Property NAME="height">978</Property>
+    <Property NAME="labelText"></Property>
+    <Property NAME="stripChartState">True</Property>
+    <Property NAME="width">1290</Property>
+    <Property NAME="xLocation">577</Property>
+    <Property NAME="yLocation">374</Property>
+  </Properties>
+</JavaBean>
+
